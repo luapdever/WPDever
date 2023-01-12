@@ -1,1 +1,2 @@
-# WPDever \n WordPress Theme for fun
+# WPDever
+WordPress Theme for fun
