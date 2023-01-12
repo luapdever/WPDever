@@ -1,0 +1,28 @@
+.menu-main-container {
+    color: white;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    z-index: 9999;
+}
+.admin-bar .menu-main-container {
+    top: 37px;
+}
+.menu-main-container .menu {
+    display: flex;
+    gap: 20px;
+    background-color: #000000aa;
+    margin-right: auto;
+    padding: 18px 30px;
+    border-radius: 0 18px 18px 0;
+}
+ul.menu li {
+    list-style: none;
+}
+ul.menu li a {
+    color: white;
+}
+ul.menu li a[aria-current="page"] {
+    color: orange;
+    font-weight: bold;
+}
