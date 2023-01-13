@@ -10,6 +10,11 @@ register_nav_menus([
 	'footer' => 'Bas de page',
 ]);
 
+register_sidebar( array(
+	'id' => 'blog-sidebar',
+	'name' => 'Blog',
+) );
+
 require_once get_template_directory() . "/inc/config.php";
 require_once get_template_directory() . "/inc/post-types.php";
 require_once get_template_directory() . "/inc/shortcodes.php";

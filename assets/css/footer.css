@@ -1,0 +1,38 @@
+.search__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #000000aa;
+    color: white;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 80px;
+    height: 80px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .6s ease-in-out;
+}
+.search__container:hover {
+    background-color: #000000ee;
+    border-radius: 18px;
+    max-width: 90vw;
+    padding-right: 30px;
+}
+.search__container .search__icon span {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.search__container form {
+    display: flex;
+    opacity: 0;
+}
+
+.search__container:hover form {
+    opacity: 1;
+}

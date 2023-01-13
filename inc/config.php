@@ -26,6 +26,13 @@ function dever_register_assets() {
         '1.0'
     );
     
+    wp_enqueue_style(
+        'dever_footer',
+        get_template_directory_uri() . "/assets/css/footer.css",
+        [],
+        '1.0'
+    );
+    
     if(is_home() || is_single()) {
         wp_enqueue_style(
             'dever_blog',

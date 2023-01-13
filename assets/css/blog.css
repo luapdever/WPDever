@@ -48,3 +48,9 @@ article.post .blog_meta img {
     object-fit: cover;
     box-shadow: 0px 0px 5px #00000044;
 }
+
+@media screen and (max-width: 993px) {
+    .blog article.post:nth-child(n+2) {
+        width: 100%;
+    }
+}
