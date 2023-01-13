@@ -16,7 +16,7 @@ function dever_register_post_types() {
         'show_in_rest' => true,
         'has_archive' => true,
         'supports' => ['title', 'editor','thumbnail', 'revisions'],
-        'menu_position' => 10, 
+        'menu_position' => 100, 
         'menu_icon' => 'dashicons-admin-customizer',
     ];
 

@@ -11,15 +11,20 @@
                 <h2 class="project__title">
                     <a href="<?php the_permalink(); ?>">
                         <?php the_title(); ?>
-                        <span class="taxonomies">
-                            <?php the_terms(get_the_ID() , 'project-type'); ?>
-                        </span>
                     </a>
+                    <span class="taxonomies">
+                        <?php the_terms(get_the_ID() , 'project-type'); ?>
+                    </span>
                 </h2>
                 <?php the_post_thumbnail(); ?>
             </div>
         <?php endwhile; endif; ?>
     </section> 
+
+    <section>
+        <h4>Current User</h4>
+        <p><em><?php echo apply_shortcodes("[fullname]") ?></em></p>
+    </section>
 </div>
 
 <?php get_footer() ?>

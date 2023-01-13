@@ -37,3 +37,9 @@ a {
     align-items: center;
     text-align: center;
 }
+.bold {
+    font-weight: bold;
+}
+.important {
+    color: orangered;
+}
